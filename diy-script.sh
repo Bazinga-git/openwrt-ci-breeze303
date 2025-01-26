@@ -30,6 +30,11 @@ function git_sparse_clone() {
 }
 
 # 添加额外插件
+git clone https://github.com/sirpdboy/netspeedtest.git package/netspeedtest
+git clone https://github.com/sirpdboy/luci-app-lucky.git package/lucky
+git clone https://github.com/zzsj0928/luci-app-pushbot package/luci-app-pushbot
+git clone https://github.com/sbwml/luci-app-airconnect package/luci-app-airconnect
+
 git clone --depth=1 https://github.com/kongfl888/luci-app-adguardhome package/luci-app-adguardhome
 git clone --depth=1 -b openwrt-18.06 https://github.com/tty228/luci-app-wechatpush package/luci-app-serverchan
 git clone --depth=1 https://github.com/ilxp/luci-app-ikoolproxy package/luci-app-ikoolproxy
