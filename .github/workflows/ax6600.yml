@@ -1,5 +1,4 @@
-name: IPQ60XX-6.12-WIFI
-
+name: ax6600
 on:
   workflow_dispatch:
   schedule:
